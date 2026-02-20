@@ -1,15 +1,4 @@
-def add(x, y):
-    return x + y
-def subtract(x, y):
-    return x - y
-def multiply(x, y):
-    return x * y
-def divide(x, y):
-    return x / y
-num1 = int(input("Enter number 1:"))
-num2 = int(input("Enter number 2:"))
-print("sum:", add(num1, num2))
-print("difference:", subtract(num1, num2))
-print("product:", multiply(num1, num2))
-print("quotient:", divide(num1, num2))
-print("remainder:", divide(num1, num2))
+numbers = [0, 1, 1, 2, 3, 5, 8,13]
+for num1 in range(0,14):
+    for num2 in range(0, 13):
+        print(num1,num2)
